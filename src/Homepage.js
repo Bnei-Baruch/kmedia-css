@@ -358,10 +358,9 @@ export default function Example() {
               <Sections items={sections}/>
               <SectionTitle text={'Rav Laitman in Social networks'}/>
               <BlogFeed/>
-              <SectionTitle text={'New on the site'}/>
-              <Footer  items={sections}/>
             </div>
           </main>
+              <Footer items={sections}/>
         </div>
       </div>
     </>
