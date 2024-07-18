@@ -22,7 +22,6 @@ const footeritems = [
 ];
 
 const navigation = {
-
   social: [
     {
       name: "Facebook",

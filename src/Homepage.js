@@ -53,6 +53,7 @@ import Sections from './Sections'
 import Banners from './Banners'
 import SectionTitle from './SectionTitle'
 import BlogFeed from './BlogFeed'
+import NewVideos from './NewVideos'
 import Footer from './Footer'
 
 
@@ -356,6 +357,8 @@ export default function Example() {
               <Banners/>
               <SectionTitle text={'Archive Sections'}/>
               <Sections items={sections}/>
+              <SectionTitle text={'New on the site'}/>
+              <NewVideos/>
               <SectionTitle text={'Rav Laitman in Social networks'}/>
               <BlogFeed/>
             </div>
