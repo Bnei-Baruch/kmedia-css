@@ -161,13 +161,7 @@ export default function Example() {
       <Layout sections={sections}>
         <main className="py-10">
           <div className="px-4 sm:px-6 lg:px-8">
-            <Banners/>
-            <SectionTitle text={'Archive Sections'}/>
-            <Sections items={sections}/>
-            <SectionTitle text={'New on the site'}/>
-            <NewVideos/>
-            <SectionTitle text={'Rav Laitman in Social networks'}/>
-            <BlogFeed/>
+            Topics
           </div>
         </main>
       </Layout>
